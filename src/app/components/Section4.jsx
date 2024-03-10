@@ -2,7 +2,7 @@ import React from 'react'
 import { FaCheckCircle } from "react-icons/fa";
 import { FaClipboardCheck } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
-import style from './section4.module.css'
+import style from './Section4.module.css'
 
 function Section4() {
     return (

@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Section4 from './components/section4'
+import Section4 from './components/Section4'
 import Section5 from './components/Section5'
 import Footer from './components/Footer'
 import Section3 from './components/Section3'
