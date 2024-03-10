@@ -1,0 +1,113 @@
+.sec5 {
+    margin: 0 5rem;
+    margin-top: 5rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top h3 {
+    font-size: 32px;
+    margin: 16px 0;
+}
+
+.top p {
+    width: 75%;
+}
+
+.top button {
+    padding: 10px 20px;
+    background-color: rgb(219, 219, 219);
+    width: max-content;
+    border: none;
+    border-radius: 5px;
+}
+
+.top button p {
+    background-color: rgb(219, 219, 219);
+    width: max-content;
+    font-size: larger;
+}
+
+.content {
+    background-color: rgb(219, 219, 219);
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerContent {
+    margin: 2rem 4rem;
+}
+
+.content Image{
+    width: 400px;
+    height: 300px;
+}
+
+.content p {
+    margin: 20px 0;
+}
+
+.content .star {
+    color: #2e9d0d;
+    font-size: 28px;
+    display: flex;
+    gap: 10px;
+}
+
+.studentName {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.studentPost {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.studentPost span {
+    color: blue;
+}
+
+.para {
+    width: 80%;
+}
+
+@media (max-width: 700px) {
+    .sec5 {
+        margin: 0 1rem;
+        margin-top: 2rem;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top h3 {
+        font-size: 18px;
+    }
+
+    .top p {
+        width: 80%;
+    }
+    .content {
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .innerContent {
+        margin: 1rem;
+    }
+    .content Image{
+        width: 300px;
+        height: 200px;
+    }
+}

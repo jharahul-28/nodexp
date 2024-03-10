@@ -1,0 +1,121 @@
+.home{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 7rem;
+    overflow: hidden;
+}
+
+.homeContent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.3);
+    z-index: 2;
+}
+
+.sec3{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    color: white;
+}
+
+.sec3 p{
+    margin: 15px 0;
+    width: 80%;
+    color: #dadada;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.s3content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 2rem;
+}
+
+.s3content .right{
+    margin: 0 0 0 4rem;
+}
+
+.s3content .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(186, 177, 225, 0.5);
+    padding: 2rem;
+    border-radius: 20px;
+    height: 80%;
+    height: fit-content;
+}
+
+.s3content .left video{
+    height: 270px;
+    width: 480px;
+}
+
+.s3content .right p{
+    color: white;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.s3content .right button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    background-color: yellow;
+}
+
+.button2{
+    margin-left: 1rem;
+    color: white;
+}
+
+.wave{
+    margin-top: -50px;
+}
+
+@media (max-width: 700px) {
+    .s3content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .s3content .left{
+        display: flex;
+        flex-direction: column;
+    }
+    .s3content p{
+        font-size: 14px;
+    }
+    .s3content h3{
+        font-size: 18px;
+    }
+    .s3content .left video{
+        height: 180px;
+        width: 320px;
+    }    
+    .s3content .right{
+        margin: 0 1rem;
+    }
+    .wave{
+        display: none;
+    }
+    .s3content .left{
+        padding: 1rem;
+        border-radius: 20px;
+        height: 80%;
+    }
+}
