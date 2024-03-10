@@ -31,7 +31,7 @@ function Home() {
                         <h3>Crafting your dream career:</h3>
                         <h3>Building a path you love with us</h3>
                         <p>At Learning Exp. We Are Committed To Providing You With A Superior Learning Experience That Empowers You To Achieve Your Goals. Join Us Today And Embark On A Journey Of Discovery, Growth, And Success.</p>
-                        <p>Our platofrm is designed to empower thinkers like you to excl in today's dynamic world.</p>
+                        <p>Our platofrm is designed to empower thinkers like you to excl in today&apos;s dynamic world.</p>
                         <span>
                             <Link href="/bookNow"><Button>Book Demo Now</Button></Link>
                             <span className={style.button2}>Explore More</span> 
